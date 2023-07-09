@@ -22,7 +22,7 @@ export function SearchView() {
   }
   // if semantic search is activated we get a flat array sorted by relevance
   // thats why we have to change the parameters
-  const title = `Searching "${searchQuery}"...`;
+  const title = `Answer : "${searchQuery}"...`;
 
   // To-Do: Semantic Search broken, Zod Error
   return (
